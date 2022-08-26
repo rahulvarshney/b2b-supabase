@@ -1,5 +1,5 @@
-//import "dotenv";
-import "https://deno.land/x/dotenv/load.ts";
+import "dotenv";
+//import "https://deno.land/x/dotenv/load.ts";
 import { supabaseClient, supabaseTable, supabaseTableItems } from "https://deno.land/x/supabase_deno/mod.ts";
 
 
