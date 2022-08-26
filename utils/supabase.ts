@@ -1,7 +1,5 @@
 import "dotenv";
-//import "https://deno.land/x/dotenv/load.ts";
-import { supabaseClient, supabaseTable, supabaseTableItems } from "https://deno.land/x/supabase_deno/mod.ts";
-
+import { supabaseClient, supabaseTable, supabaseTableItems } from "supabase";
 
 const sbclient = new supabaseClient(
     "https://xlrlffigpvvuhrfvqoxm.supabase.co",
