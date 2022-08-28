@@ -2,25 +2,6 @@
 import { h } from "preact";
 import { tw } from "@twind";
 import Counter from "../islands/Counter.tsx";
-import type { LogoView } from "@/utils/types.ts";
-//import * as database from "@/utils/types.ts";
-import "dotenv";
-import { supabaseClient, supabaseTable, supabaseTableItems } from "supabase";
-
-
-
-/*const sbclient = new supabaseClient(
-    Deno.env.get("SUPABASE_API_URL"),
-    Deno.env.get("SUPABASE_ANON_KEY")   
-);
-
-const sbTableItems = new supabaseTableItems(sbclient, "logos");
-
-const sbItemTest = await sbTableItems.get('b2b_domain', '740esquire.com');
-
-console.log( sbItemTest );*/
-
-
 
 
 export default function Home( ) {
